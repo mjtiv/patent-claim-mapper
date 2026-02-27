@@ -40,6 +40,27 @@ This claim-centric approach reflects early-stage patent analysis workflows, wher
 
 ------------------------------------------------------------------------
 
+## Professional Use Disclaimer
+
+This pipeline is intended to explore whether AI systems can assist with structured claim-to-description correspondence analysis. It does **not** imply that patent agents, patent attorneys, or technical specialists are replaceable.
+
+Patent analysis requires professional judgment, including:
+
+- Claim interpretation and construction
+- Legal strategy considerations
+- Specification review
+- Prosecution history analysis
+- Jurisdiction-specific legal standards
+- Risk assessment and client counseling
+
+The objective of this work is to evaluate whether certain high-effort, repetitive components of patent workflows — such as initial claim decomposition and preliminary correspondence screening — can be accelerated to support more efficient triage.
+
+In practice, tools of this type are best understood as **decision-support systems** that may help professionals prioritize analysis and allocate time more effectively, allowing greater focus on nuanced legal reasoning and strategic evaluation.
+
+All outputs produced by this pipeline should be treated as experimental and subject to expert review.
+
+------------------------------------------------------------------------
+
 ## Experimental "Intentional Infringement" Scenario
 
 A synthetic product concept is intentionally designed to read on certain
