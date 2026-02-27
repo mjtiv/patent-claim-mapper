@@ -143,6 +143,155 @@ Outputs are summarized into a CSV report including:
 
 ------------------------------------------------------------------------
 
+# Results --- Anchor Patent Validation
+
+## Anchor Patent Performance
+
+The system was evaluated on a controlled patent corpus designed to
+produce a similarity gradient between the invention description and
+selected patents.
+
+The primary objective was to determine whether the pipeline could
+correctly identify stronger correspondence with the anchor patents while
+minimizing correspondence with unrelated patents.
+
+The strongest result was observed for **U.S. Patent No. 9,922,383 ---
+Claim 1**, which served as the anchor patent intentionally targeted by
+the synthetic invention description.
+
+The system produced:
+
+-   **Overall assessment:** LIKELY_MATCH\
+-   **Elements evaluated:** 9\
+-   **Matched elements:** 9\
+-   **Missing elements:** 0\
+-   **Match percentage:** 100%
+
+This represents complete element-level correspondence between the
+invention description and the claim.
+
+Notably, the model identified explicit textual evidence from the
+invention description for each claim element, indicating that the
+pipeline successfully performed:
+
+-   Claim decomposition\
+-   Feature extraction\
+-   Element-level mapping\
+-   Evidence grounding
+
+The perfect correspondence score for the anchor claim demonstrates that
+the system can detect strong technical alignment when present.
+
+------------------------------------------------------------------------
+
+## Anchor Claim Text (U.S. Patent No. 9,922,383 --- Claim 1)
+
+To provide transparency and allow independent evaluation of the
+correspondence analysis, the full text of the highest-scoring claim is
+reproduced below.
+
+> **Claim 1.** A system for analyzing patent claims, the system
+> comprising:\
+> at least one input device in communication with at least one computer
+> and at least one output device, wherein the at least one computer is
+> capable of storing, modifying, outputting, and retrieving information
+> via an electronic network from the at least one input device and the
+> at least one output device;\
+> at least one database, the database in network communication with the
+> at least one computer; and\
+> software installed and capable of running on the at least one computer
+> for automatically:\
+> importing patent claims via the electronic network based upon the user
+> inputted information;\
+> parsing the imported patent claims hierarchically, wherein each
+> independent claim is parsed into its invention sub-elements, wherein
+> an invention sub-element is a parsed patent invention element or a
+> step of the independent patent invention claim, and wherein the
+> hierarchically parsed patent claims comprises hierarchical elements
+> and sub-elements;\
+> generating a hierarchical claims diagram comprising a textual claim
+> content associated with each patent claim, and\
+> outputting the hierarchical claims diagram, wherein, for each patent
+> claim, the hierarchical claims diagram shows the parsed claims in an
+> interactive format that is operable to dynamically expand and compress
+> the textual claim content, according to the hierarchy of the imported
+> patent claims;\
+> receiving sub-element selections from the input device;\
+> analyzing the sub-element selections for technology content;\
+> searching the at least one database in real-time via the network for
+> matching technology content;\
+> receiving a study purpose;\
+> analyzing in real-time via the network a matching technology content
+> record for matching study purpose;\
+> retrieving in real-time from the Internet the matching technology and
+> study purpose content;\
+> displaying on a GUI matching technology and study purpose content
+> thumbnail images beside the patent claims diagram; and\
+> visually linking the thumbnail images to their sub-element.
+
+------------------------------------------------------------------------
+
+## Correspondence Interpretation
+
+The invention description used in this experiment explicitly included
+functionality involving:
+
+-   Automated claim import and parsing\
+-   Hierarchical decomposition into claim elements\
+-   Mapping invention features to claim elements\
+-   Generation of claim mapping outputs\
+-   Visual linking between elements and results
+
+These features align closely with the structural and functional
+limitations recited in Claim 1, particularly those relating to:
+
+-   Hierarchical claim parsing\
+-   Diagram generation and visualization\
+-   Element selection and analysis\
+-   Database searching and retrieval\
+-   Visual linkage of results to claim sub-elements
+
+The system identified supporting textual evidence for all claim
+elements, resulting in:
+
+-   **9 / 9 elements matched**\
+-   **0 missing elements**\
+-   **Overall assessment:** LIKELY_MATCH
+
+This complete correspondence supports the validity of the pipeline's
+ability to detect strong technical alignment when present.
+
+------------------------------------------------------------------------
+
+## Gradient Behavior Across Dataset
+
+The broader dataset exhibited the expected similarity gradient:
+
+-   **Anchor (9,922,383):** LIKELY_MATCH / highest scores\
+-   **Strong Neighbor (9,904,726):** High PARTIAL_MATCH (\~70--75%)\
+-   **Medium Neighbor (8,892,547):** Moderate PARTIAL_MATCH\
+-   **Weak Neighbors:** NO_MATCH\
+-   **Outlier (6,285,999):** Predominantly NO_MATCH
+
+This pattern indicates that the system demonstrates discriminative
+capability across patents with varying conceptual similarity.
+
+------------------------------------------------------------------------
+
+## Conclusion
+
+The experiment demonstrates that structured AI pipelines can:
+
+-   Map invention descriptions to patent claim elements\
+-   Detect missing limitations\
+-   Rank correspondence strength across patents
+
+The successful identification of Claim 1 of U.S. 9,922,383 as the top
+match provides strong preliminary validation of the approach.
+
+
+------------------------------------------------------------------------
+
 ## Example Output Schema
 
 ``` json
