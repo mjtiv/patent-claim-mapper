@@ -1,0 +1,82 @@
+{
+  "source": "google_patents",
+  "source_url": "https://patents.google.com/patent/US11100151",
+  "publication_number": "",
+  "title": "Interactive patent visualization systems and methods",
+  "abstract": "An interactive, dynamic GUI for visualization of patent documents including content-dense graphics illustrating the number, content size, type of a multiplicity of patent documents (issued or granted patent versus published pending application), distributed over time, with comparison to similar patent documents, market events, and expert insights based upon content of specification or detailed description and claims, all within a predetermined technology sector having at least one sub-sector or category within the technology sector.",
+  "claims": [
+    {
+      "claim_number": 1,
+      "text": "A system for interactive patent visualization, comprising: at least one user device constructed and configured for network communication with at least one server platform; wherein the at least one server platform is operable to provide an interactive and dynamic graphical user interface (GUI) to the at least one user device; wherein the at least one server platform comprises an intelligence engine including an artificial intelligence (AI) model; wherein the at least one server platform is operable to access at least one national patent database and a multiplicity of market related databases; wherein the at least one server platform is operable to generate a patent forecast diagram based on patent data from the at least one national patent database, wherein the patent forecast diagram comprises a multiplicity of graphics distributed over time and by a multiplicity of categories, representing a distribution of patent documents for a predetermined technology sector over time, wherein each graphic represents a patent document; wherein the patent forecast diagram comprises a multiplicity of graphics distributed over time and by a multiplicity of categories, representing a distribution of patent documents for a predetermined technology sector over time, wherein each graphic represents a patent document; wherein each of the multiplicity of categories comprises a multiplicity of sub-categories; wherein each of the multiplicity of sub-categories comprises one of a multiplicity of category labels; wherein the at least one user device is operable to tag a multiplicity of patent documents with one of the multiplicity of category labels; wherein the server platform is operable to group the multiplicity of patent documents by the multiplicity of category labels on the patent forecast diagram; wherein the server platform is operable to generate a visual representation of market information including news articles, press releases, product announcements, and professional opinion articles for the predetermined technology sector; wherein the at least one user device is operable to display the patent forecast diagram and the visual representation of market information via the interactive and dynamic GUI; wherein the at least one server platform is operable to train the AI model based on text of the multiplicity of patent documents tagged with one of the multiplicity of category labels by the at least one user device; wherein the at least one user device is operable to display the patent forecast diagram via the interactive and dynamic GUI; wherein the at least one user device is operable to provide for click-selection of one of the multiplicity of graphics and display related patent data represented by the click-selected one of the multiplicity of graphics; and wherein the patent forecast diagram is a radial plot diagram with the multiplicity of patent documents distributed from the origin to the extent of the radial plot diagram by time, and wherein the multiplicity of patent documents are circumferentially grouped based on the multiplicity of category labels."
+    },
+    {
+      "claim_number": 2,
+      "text": "The system of claim 1 , wherein the intelligence engine is operable to automatically tag the multiplicity of patent documents with one of the multiplicity of category labels based on patent document information including claim text, abstract text, activity dates, Cooperative Patent Classification (CPC) codes, and metadata."
+    },
+    {
+      "claim_number": 3,
+      "text": "The system of claim 1 , wherein the size of each graphic represents a length of the patent document."
+    },
+    {
+      "claim_number": 4,
+      "text": "The system of claim 1 , wherein the multiplicity of graphics comprises at least one geometric shape, and wherein the at least one geometric shape comprises at least one circle."
+    },
+    {
+      "claim_number": 5,
+      "text": "The system of claim 4 , wherein the at least one circle comprises a filled circle representing an issued patent document."
+    },
+    {
+      "claim_number": 6,
+      "text": "The system of claim 4 , wherein the at least one circle comprises an unfilled circle representing a published patent application."
+    },
+    {
+      "claim_number": 7,
+      "text": "A system for interactive patent visualization, comprising: at least one user device constructed and configured for network communication with a server platform; wherein the server platform is operable to provide an interactive and dynamic graphical user interface (GUI) to the at least one user device; wherein the server platform is operable to access at least one national patent database and a multiplicity of market related databases; wherein the server platform is operable to generate a patent forecast diagram based on patent data from the at least one national patent database, wherein the patent forecast diagram comprises a multiplicity of graphics distributed over time and by a multiplicity of categories, representing a distribution of patent documents for a predetermined technology sector over time, wherein each graphic represents a patent document; wherein each of the multiplicity of categories are associated with one of a multiplicity of category labels; wherein the at least one user device is operable to tag a multiplicity of patent documents with one of the multiplicity of category labels; wherein the server platform is operable to group the multiplicity of patent documents by the multiplicity of category labels on the patent forecast diagram; wherein the server platform is operable to generate a visual representation of market information including news articles, press releases, product announcements, and professional opinion articles for the predetermined technology sector; wherein the at least one user device is operable to display the patent forecast diagram and the visual representation of market information via the interactive and dynamic GUI; wherein the at least one user device is operable to click-select one of the multiplicity of graphics and display related patent data represented by the click-selected one of the multiplicity of graphics; and wherein the patent forecast diagram is a radial plot diagram with the multiplicity of patent documents distributed from the origin to the extent of the radial plot diagram by time, and wherein the multiplicity of patent documents are circumferentially grouped based on the multiplicity of category labels."
+    },
+    {
+      "claim_number": 8,
+      "text": "The system of claim 7 , wherein the server platform is operable to search and retrieve the market information from the multiplicity of market related databases."
+    },
+    {
+      "claim_number": 9,
+      "text": "The system of claim 7 , wherein the server platform comprises an intelligence engine including a machine learning model operable to automatically curate and prioritize the market information based upon a relevancy value and a recency value for the predetermined technology sector."
+    },
+    {
+      "claim_number": 10,
+      "text": "The system of claim 7 , wherein the market information includes electronic documents or data elements having automatic links directly to a company web site hosted on the internet, real time stock status and price for public companies."
+    },
+    {
+      "claim_number": 11,
+      "text": "A method for interactive patent visualization, comprising: providing at least one user device constructed and configured for network communication with at least one server platform, wherein the at least one server platform comprises an intelligence engine including an artificial intelligence (AI) model, wherein the at least one server platform provides an interactive and dynamic graphical user interface (GUI) to the at least one user device; the at least one server platform accessing at least one national patent database and a multiplicity of market related databases; the at least one server platform automatically generating a patent forecast diagram based on patent data from the at least one national patent database, wherein the patent forecast diagram comprises a multiplicity of graphics distributed over time and by a multiplicity of categories, representing a distribution of patent documents for a predetermined technology sector over time, wherein each graphic represents a patent document; wherein each of the multiplicity of categories are associated with one of a multiplicity of category labels; the at least one user device tagging a multiplicity of patent documents with one of the multiplicity of category labels; wherein the server platform is operable to group the multiplicity of patent documents by the multiplicity of category labels on the patent forecast diagram; wherein the server platform is operable to generate a visual representation of market information including news articles, press releases, product announcements, and professional opinion articles for the predetermined technology sector; wherein the at least one user device is operable to display the patent forecast diagram and the visual representation of market information via the interactive and dynamic GUI; the at least one server platform training the AI model based on text of the multiplicity of patent documents tagged with the at least one category label by the at least one user device; the at least one user device displaying the patent forecast diagram via the interactive and dynamic GUI; the at least one user device click-selecting one of the multiplicity of graphics and displaying related patent data represented by the click-selected one of the multiplicity of graphics; the at least one server platform automatically, periodically retrieving new patent data from the at least one national database and updating the multiplicity of patent documents by adding new patent documents to the multiplicity of patent documents based on the new patent data; and wherein the patent forecast diagram is a radial plot diagram with the multiplicity of patent documents distributed from the origin to the extent of the radial plot diagram by time, and wherein the multiplicity of patent documents are circumferentially grouped based on the at least one category label."
+    },
+    {
+      "claim_number": 12,
+      "text": "The method of claim 11 , wherein the patent forecast diagram is a radial plot diagram with the multiplicity of patent documents distributed from the origin to the extent of the radial plot diagram by time."
+    },
+    {
+      "claim_number": 13,
+      "text": "The method of claim 11 , further comprising the intelligence engine automatically tagging a second multiplicity of patent documents with the at least one category label."
+    },
+    {
+      "claim_number": 14,
+      "text": "The method of claim 11 , further comprising the intelligence engine automatically searching, retrieving, curating and prioritizing market information from a multiplicity of market related databases based upon a relevancy value and a recency value for the predetermined technology sector."
+    },
+    {
+      "claim_number": 15,
+      "text": "The method of claim 14 , further comprising the at least one server platform automatically generating a visual representation of the market information, and the at least one user device displaying the visual representation of the market information via the interactive and dynamic GUI."
+    },
+    {
+      "claim_number": 16,
+      "text": "The method of claim 14 , further comprising the at least one server platform providing insights for the predetermined sector based on the patent data and the market information."
+    },
+    {
+      "claim_number": 17,
+      "text": "The system of claim 1 , wherein the at least one server platform is operable to group the multiplicity of patent documents by the multiplicity of categories or by the multiplicity of subcategories on the patent forecast diagram, and wherein the dynamic GUI is operable to allow the patent forecast diagram to alternate between grouping the multiplicity of patent documents by the multiplicity of categories or by the multiplicity of subcategories."
+    },
+    {
+      "claim_number": 18,
+      "text": "The system of claim 7 , wherein the multiplicity of category labels are not Cooperative Patent Classification (CPC) codes."
+    }
+  ],
+  "raw_html_bytes": 374224
+}

@@ -1,0 +1,63 @@
+{
+  "patent_id": "8892547",
+  "claim_number": 11,
+  "claim_text": "A patent portfolio management system, the system comprising: a patent matter database, wherein the database includes data about the patent matters, the data including for at least one patent matter: a claim set or statement of invention, and a priority date for the claim set or statement of invention; a database of prior art documents, wherein the prior art database includes data about the prior art documents, the data including for at least one prior art document a hardware-implemented analytics module including at least one processor to: associate one or more prior art documents with a first patent matter in the patent matter database; automatically identify a pool of keywords for the first patent matter and associated one or more prior art documents based on occurrences of the keywords in the first patent matter and associated prior art documents; perform an automatic keyword analysis on both the first patent matter and associated one or more prior art documents; automatically identify, based on the analysis, at least one of keywords occurring uniquely in the first patent matter as potential claim elements differentiating the claim set or statement of invention over the disclosures contained in the one or more prior art documents and keywords occurring in both the first patent matter and in the one or more prior art documents; and combine at a user interface information including at least identification of the at least one patent matter, the pool of keywords, a horizontally-arrayed graphical timeline representing the priority date of the first patent matter and the priority or publication dates of the one or more prior art documents plotted on the graphical timeline, and at least one graph representing at least one of the keywords occurring uniquely in the first patent matter and the keywords occurring in both the first patent matter and in the one or more prior art document.",
+  "overall_assessment": "PARTIAL_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "patent matter database",
+      "status": "MATCH",
+      "invention_evidence": [
+        "a software platform that accepts a user invention description and a set of patents",
+        "a computer-implemented platform that receives a user invention description and a set of patent documents",
+        "maintaining a patent matter database"
+      ],
+      "notes": "The invention describes a platform that includes a database for patent matters."
+    },
+    {
+      "element_id": "2",
+      "element_text": "database of prior art documents",
+      "status": "MATCH",
+      "invention_evidence": [
+        "a set of patent documents",
+        "a database of prior art documents",
+        "analyzing prior art in a patent portfolio"
+      ],
+      "notes": "The invention includes a database for prior art documents."
+    },
+    {
+      "element_id": "3",
+      "element_text": "hardware-implemented analytics module",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not specify a hardware-implemented analytics module."
+    },
+    {
+      "element_id": "4",
+      "element_text": "automatic keyword analysis",
+      "status": "MATCH",
+      "invention_evidence": [
+        "compares them using AI models",
+        "compares the extracted features to the claim elements",
+        "perform an automatic keyword analysis"
+      ],
+      "notes": "The invention involves analysis of features, which aligns with keyword analysis."
+    },
+    {
+      "element_id": "5",
+      "element_text": "user interface for displaying information",
+      "status": "MATCH",
+      "invention_evidence": [
+        "generate a claim mapping report",
+        "provide interactive exploration of the mappings",
+        "combine at a user interface information"
+      ],
+      "notes": "The invention describes generating reports and providing interactive exploration."
+    }
+  ],
+  "missing_elements": [
+    "hardware-implemented analytics module"
+  ],
+  "summary": "The claim describes a patent portfolio management system with a database for patent matters and prior art documents, an automatic keyword analysis, and a user interface for displaying information. The invention partially matches the claim, but lacks explicit mention of a hardware-implemented analytics module."
+}

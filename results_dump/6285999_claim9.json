@@ -1,0 +1,51 @@
+{
+  "patent_id": "6285999",
+  "claim_number": 9,
+  "claim_text": "A computer implemented method of ranking a plurality of linked documents, comprising: obtaining a plurality of documents, at least some of the documents being linked documents and at least some of the documents being linking documents, at least some of the linking documents also being linked documents, each of the linked documents being pointed to by a link in one or more of the linking documents; generating an initial estimate of a rank for each of the linked documents; updating the estimate of the rank for each of the linked documents using ranks for the one or more linking documents; and processing the linked documents according to their updated ranks.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "computer implemented method of ranking linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention focuses on a claim mapping platform, not on ranking linked documents."
+    },
+    {
+      "element_id": "2",
+      "element_text": "obtaining a plurality of documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention obtaining documents."
+    },
+    {
+      "element_id": "3",
+      "element_text": "generating an initial estimate of a rank",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of generating ranks in the invention description."
+    },
+    {
+      "element_id": "4",
+      "element_text": "updating the estimate of the rank",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe updating ranks."
+    },
+    {
+      "element_id": "5",
+      "element_text": "processing linked documents according to their updated ranks",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No processing of linked documents based on ranks is mentioned."
+    }
+  ],
+  "missing_elements": [
+    "computer implemented method of ranking linked documents",
+    "obtaining a plurality of documents",
+    "generating an initial estimate of a rank",
+    "updating the estimate of the rank",
+    "processing linked documents according to their updated ranks"
+  ],
+  "summary": "The claim describes a method for ranking linked documents, which does not align with the invention's focus on an AI claim mapping platform."
+}

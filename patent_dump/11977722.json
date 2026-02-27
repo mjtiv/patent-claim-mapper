@@ -1,0 +1,54 @@
+{
+  "source": "google_patents",
+  "source_url": "https://patents.google.com/patent/US11977722",
+  "publication_number": "",
+  "title": "Interactive patent visualization systems and methods",
+  "abstract": "An interactive, dynamic GUI for visualization of patent documents including content-dense graphics illustrating the number, content size, type of a multiplicity of patent documents (issued or granted patent versus published pending application), distributed over time, with comparison to similar patent documents, market events, and expert insights based upon content of specification or detailed description and claims, all within a predetermined technology sector having at least one sub-sector or category within the technology sector.",
+  "claims": [
+    {
+      "claim_number": 1,
+      "text": "A system for interactive patent visualization, comprising: at least one user device constructed and configured for network communication with at least one server platform; wherein the at least one server platform is operable to provide an interactive and dynamic graphical user interface (GUI) to the at least one user device; wherein the at least one server platform is operable to access at least one national patent database; wherein the at least one server platform is operable to generate a patent forecast diagram based on patent data from the at least one national patent database; wherein the patent forecast diagram comprises a multiplicity of graphical elements distributed based on a timeline, representing a multiplicity of patent documents, wherein each graphical element represents a patent document; wherein the at least one user device is operable to display the patent forecast diagram via the interactive and dynamic GUI; wherein the interactive and dynamic GUI is operable to instantaneously expand and contract the scaling of the patent forecast diagram based on a user-selected time scale; wherein the at least one server platform is operable to assign each of the multiplicity of patent documents with one of a multiplicity of primary category labels; wherein the at least one server platform is operable to group the multiplicity of patent documents by the multiplicity of primary category labels based on input from the at least one user device; wherein the at least one server platform is operable to receive a selection of at least one assignee; and wherein the at least one server platform is operable to automatically apply at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents assigned to the at least one assignee upon receiving the selection of the at least one assignee; and wherein the at least one server platform is operable to automatically reduce the opacity of each of the multiplicity of graphical elements representing a multiplicity of patent documents not assigned to the at least one assignee upon receiving the selection of the at least one assignee."
+    },
+    {
+      "claim_number": 2,
+      "text": "The system of claim 1 , wherein the at least one server platform is operable to assign the multiplicity of patent documents with one of a multiplicity of secondary category labels, and wherein the at least one server platform is operable to group the multiplicity of patent documents grouped by each primary category label by the multiplicity of secondary category labels."
+    },
+    {
+      "claim_number": 3,
+      "text": "The system of claim 1 , wherein the at least one server platform is operable to automatically apply at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents not assigned to the at least one assignee."
+    },
+    {
+      "claim_number": 4,
+      "text": "The system of claim 1 , wherein the at least one server platform includes an artificial intelligence module, and wherein the artificial intelligence module is operable to generate at least one suggested category label for each of the multiplicity of patent documents."
+    },
+    {
+      "claim_number": 5,
+      "text": "A method for interactive patent visualization, comprising: providing at least one user device constructed and configured for network communication with at least one server platform, wherein the at least one server platform provides an interactive and dynamic graphical user interface (GUI) to the at least one user device; the at least one server platform accessing at least one national patent database; the at least one server platform automatically generating a patent forecast diagram based on patent data from the at least one national patent database, wherein the patent forecast diagram comprises a multiplicity of graphical elements distributed based on a timeline, representing a multiplicity of patent documents, wherein each graphical element represents a patent document; the at least one user device displaying the patent forecast diagram via the interactive and dynamic GUI; wherein the interactive and dynamic GUI is operable to instantaneously expand and contract the scaling of the patent forecast diagram based on a user-selected time scale; the at least one server platform assigning each of the multiplicity of patent documents with one of a multiplicity of primary category labels; the at least one server platform grouping the multiplicity of patent documents by the multiplicity of primary category labels based on input from the at least one user device; the at least one server platform receiving a selection of at least one assignee; and the at least one server platform automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents assigned to the at least one assignee upon receiving the of at least one assignee; and the at least one server platform receiving a selection of at least one additional assignee; the at least one server platform automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents assigned to the at least one additional assignee, wherein the color of the graphical elements representing the multiplicity of patent documents assigned to the at least one assignee is different than the color of the graphical elements representing the multiplicity of patent documents assigned to the at least one additional assignee."
+    },
+    {
+      "claim_number": 6,
+      "text": "The method of claim 5 , further comprising the at least one server platform receiving a selection of a multiplicity of secondary category labels, and the at least one server platform automatically regrouping the multiplicity of patent documents grouped by each primary category label by the multiplicity of secondary category labels."
+    },
+    {
+      "claim_number": 7,
+      "text": "The method of claim 6 , wherein the patent forecast diagram only includes patent documents having been assigned one of the multiplicity of primary category labels and at least one of the multiplicity of secondary category labels."
+    },
+    {
+      "claim_number": 8,
+      "text": "The method of claim 6 , further comprising the at least one server platform automatically regrouping the multiplicity of patent documents in real time."
+    },
+    {
+      "claim_number": 9,
+      "text": "The method of claim 5 , further comprising the at least one server platform receiving a selection of at least one assignee, and the at least one server platform automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents assigned to the at least one assignee."
+    },
+    {
+      "claim_number": 10,
+      "text": "The method of claim 9 , further comprising the at least one server platform automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents not assigned to the at least one assignee."
+    },
+    {
+      "claim_number": 11,
+      "text": "The method of claim 5 , further comprising the at least one server platform including an artificial intelligence module, and the artificial intelligence module generating at least one suggested category label for each of the multiplicity of patent documents."
+    }
+  ],
+  "raw_html_bytes": 519707
+}

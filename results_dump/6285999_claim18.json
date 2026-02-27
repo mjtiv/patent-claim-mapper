@@ -1,0 +1,51 @@
+{
+  "patent_id": "6285999",
+  "claim_number": 18,
+  "claim_text": "A computer-readable medium that stores instructions executable by one or more processing devices to perform a method for determining scores for a plurality of linked documents, comprising: instructions for obtaining a plurality of documents, at least some of the documents being linked documents, at least some of the documents being linking documents, and at least some of the documents being both linked documents and linking documents, each of the linked documents being pointed to by a link in one or more of the linking documents; instructions for determining a score for each of the linked documents based on scores for the one or more linking documents; and instructions for processing the linked documents according to their scores.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "computer-readable medium that stores instructions",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention a computer-readable medium."
+    },
+    {
+      "element_id": "2",
+      "element_text": "instructions executable by one or more processing devices",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not specify instructions executable by processing devices."
+    },
+    {
+      "element_id": "3",
+      "element_text": "method for determining scores for a plurality of linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention focuses on claim mapping and does not mention scoring linked documents."
+    },
+    {
+      "element_id": "4",
+      "element_text": "instructions for obtaining a plurality of documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe obtaining documents."
+    },
+    {
+      "element_id": "5",
+      "element_text": "instructions for processing the linked documents according to their scores",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention processing linked documents based on scores."
+    }
+  ],
+  "missing_elements": [
+    "computer-readable medium that stores instructions",
+    "instructions executable by one or more processing devices",
+    "method for determining scores for a plurality of linked documents",
+    "instructions for obtaining a plurality of documents",
+    "instructions for processing the linked documents according to their scores"
+  ],
+  "summary": "The claim describes a method for scoring linked documents, which is not addressed in the invention description focused on AI claim mapping."
+}

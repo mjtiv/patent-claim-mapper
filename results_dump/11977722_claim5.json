@@ -1,0 +1,91 @@
+{
+  "patent_id": "11977722",
+  "claim_number": 5,
+  "claim_text": "A method for interactive patent visualization, comprising: providing at least one user device constructed and configured for network communication with at least one server platform, wherein the at least one server platform provides an interactive and dynamic graphical user interface (GUI) to the at least one user device; the at least one server platform accessing at least one national patent database; the at least one server platform automatically generating a patent forecast diagram based on patent data from the at least one national patent database, wherein the patent forecast diagram comprises a multiplicity of graphical elements distributed based on a timeline, representing a multiplicity of patent documents, wherein each graphical element represents a patent document; the at least one user device displaying the patent forecast diagram via the interactive and dynamic GUI; wherein the interactive and dynamic GUI is operable to instantaneously expand and contract the scaling of the patent forecast diagram based on a user-selected time scale; the at least one server platform assigning each of the multiplicity of patent documents with one of a multiplicity of primary category labels; the at least one server platform grouping the multiplicity of patent documents by the multiplicity of primary category labels based on input from the at least one user device; the at least one server platform receiving a selection of at least one assignee; and the at least one server platform automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents assigned to the at least one assignee upon receiving the of at least one assignee; and the at least one server platform receiving a selection of at least one additional assignee; the at least one server platform automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements representing a multiplicity of patent documents assigned to the at least one additional assignee, wherein the color of the graphical elements representing the multiplicity of patent documents assigned to the at least one assignee is different than the color of the graphical elements representing the multiplicity of patent documents assigned to the at least one additional assignee.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "providing at least one user device constructed and configured for network communication with at least one server platform",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention user devices or network communication."
+    },
+    {
+      "element_id": "2",
+      "element_text": "interactive and dynamic graphical user interface (GUI)",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not specify a GUI."
+    },
+    {
+      "element_id": "3",
+      "element_text": "accessing at least one national patent database",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of accessing a national patent database in the invention description."
+    },
+    {
+      "element_id": "4",
+      "element_text": "automatically generating a patent forecast diagram",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe generating a patent forecast diagram."
+    },
+    {
+      "element_id": "5",
+      "element_text": "displaying the patent forecast diagram via the interactive and dynamic GUI",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of displaying a patent forecast diagram."
+    },
+    {
+      "element_id": "6",
+      "element_text": "operable to instantaneously expand and contract the scaling of the patent forecast diagram",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe scaling of a diagram."
+    },
+    {
+      "element_id": "7",
+      "element_text": "assigning each of the multiplicity of patent documents with one of a multiplicity of primary category labels",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of assigning category labels to patent documents."
+    },
+    {
+      "element_id": "8",
+      "element_text": "grouping the multiplicity of patent documents by the multiplicity of primary category labels",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe grouping patent documents."
+    },
+    {
+      "element_id": "9",
+      "element_text": "receiving a selection of at least one assignee",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of receiving selections of assignees."
+    },
+    {
+      "element_id": "10",
+      "element_text": "automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe applying colors or shading."
+    }
+  ],
+  "missing_elements": [
+    "providing at least one user device constructed and configured for network communication with at least one server platform",
+    "interactive and dynamic graphical user interface (GUI)",
+    "accessing at least one national patent database",
+    "automatically generating a patent forecast diagram",
+    "displaying the patent forecast diagram via the interactive and dynamic GUI",
+    "operable to instantaneously expand and contract the scaling of the patent forecast diagram",
+    "assigning each of the multiplicity of patent documents with one of a multiplicity of primary category labels",
+    "grouping the multiplicity of patent documents by the multiplicity of primary category labels",
+    "receiving a selection of at least one assignee",
+    "automatically applying at least one color and/or at least one shading to each of the multiplicity of graphical elements"
+  ],
+  "summary": "The claim describes a method for interactive patent visualization with specific functionalities that are not supported by the invention description, leading to a conclusion of no match."
+}

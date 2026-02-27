@@ -1,0 +1,91 @@
+{
+  "patent_id": "11100151",
+  "claim_number": 7,
+  "claim_text": "A system for interactive patent visualization, comprising: at least one user device constructed and configured for network communication with a server platform; wherein the server platform is operable to provide an interactive and dynamic graphical user interface (GUI) to the at least one user device; wherein the server platform is operable to access at least one national patent database and a multiplicity of market related databases; wherein the server platform is operable to generate a patent forecast diagram based on patent data from the at least one national patent database, wherein the patent forecast diagram comprises a multiplicity of graphics distributed over time and by a multiplicity of categories, representing a distribution of patent documents for a predetermined technology sector over time, wherein each graphic represents a patent document; wherein each of the multiplicity of categories are associated with one of a multiplicity of category labels; wherein the at least one user device is operable to tag a multiplicity of patent documents with one of the multiplicity of category labels; wherein the server platform is operable to group the multiplicity of patent documents by the multiplicity of category labels on the patent forecast diagram; wherein the server platform is operable to generate a visual representation of market information including news articles, press releases, product announcements, and professional opinion articles for the predetermined technology sector; wherein the at least one user device is operable to display the patent forecast diagram and the visual representation of market information via the interactive and dynamic GUI; wherein the at least one user device is operable to click-select one of the multiplicity of graphics and display related patent data represented by the click-selected one of the multiplicity of graphics; and wherein the patent forecast diagram is a radial plot diagram with the multiplicity of patent documents distributed from the origin to the extent of the radial plot diagram by time, and wherein the multiplicity of patent documents are circumferentially grouped based on the multiplicity of category labels.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "at least one user device for network communication",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention user devices or network communication."
+    },
+    {
+      "element_id": "2",
+      "element_text": "server platform providing interactive GUI",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not specify a server platform or GUI."
+    },
+    {
+      "element_id": "3",
+      "element_text": "access to national patent database and market databases",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of accessing databases in the invention description."
+    },
+    {
+      "element_id": "4",
+      "element_text": "generate patent forecast diagram",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe generating a patent forecast diagram."
+    },
+    {
+      "element_id": "5",
+      "element_text": "graphics distributed over time and categories",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No reference to graphics distribution in the invention description."
+    },
+    {
+      "element_id": "6",
+      "element_text": "tagging patent documents with category labels",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention tagging patent documents."
+    },
+    {
+      "element_id": "7",
+      "element_text": "grouping patent documents by category labels",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of grouping patent documents in the invention description."
+    },
+    {
+      "element_id": "8",
+      "element_text": "visual representation of market information",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe visual representation of market information."
+    },
+    {
+      "element_id": "9",
+      "element_text": "click-select graphics to display related patent data",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of click-select functionality in the invention description."
+    },
+    {
+      "element_id": "10",
+      "element_text": "radial plot diagram for patent documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe a radial plot diagram."
+    }
+  ],
+  "missing_elements": [
+    "at least one user device for network communication",
+    "server platform providing interactive GUI",
+    "access to national patent database and market databases",
+    "generate patent forecast diagram",
+    "graphics distributed over time and categories",
+    "tagging patent documents with category labels",
+    "grouping patent documents by category labels",
+    "visual representation of market information",
+    "click-select graphics to display related patent data",
+    "radial plot diagram for patent documents"
+  ],
+  "summary": "The claim describes a system for interactive patent visualization with multiple specific functionalities that are not supported by the invention description."
+}

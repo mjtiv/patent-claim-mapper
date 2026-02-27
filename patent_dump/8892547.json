@@ -1,0 +1,98 @@
+{
+  "source": "google_patents",
+  "source_url": "https://patents.google.com/patent/US8892547",
+  "publication_number": "",
+  "title": "System and method for prior art analysis",
+  "abstract": "The present inventive subject matter relates to prior art analysis. Various embodiments of the present inventive subject matter include systems and methods for analyzing prior art in a patent portfolio and annuity management system. In an example embodiment, a method comprises maintaining a patent matter database and a database of prior art documents including data about the prior art documents such as the priority or publication dates of the documents. A keyword analysis is performed on a given patent matter and associated prior art documents to identify keywords occurring uniquely in the first patent matter as potential claim elements differentiating the patent matter over the disclosures contained in the one or more prior art documents.",
+  "claims": [
+    {
+      "claim_number": 1,
+      "text": "A method comprising: maintaining a patent matter database, wherein the database includes data about the patent matters, the data including for at least one patent matter: a claim set or statement of invention, and a priority date for the claim set or statement of invention; maintaining a database of prior art documents, wherein the prior art database includes data about the prior art documents; associating one or more prior art documents with a first patent matter in the patent matter database; automatically identifying a pool of keywords for the first patent matter and associated one or more prior art documents based on occurrences of the keywords in the first patent matter and associated prior art documents; performing an automatic keyword analysis on both the first patent matter and associated one or more prior art documents; automatically identifying, based on the analysis, at least one of keywords occurring uniquely in the first patent matter as potential claim elements differentiating the claim set or statement of invention over the disclosures contained in the one or more prior art documents and keywords occurring in both the first patent matter and in the one or more prior art documents; and combining at a user interface information including at least identification of the at least one patent matter, the pool of keywords, a horizontally-arrayed graphical timeline representing the priority date of the first patent matter and the priority or publication dates of the one or more prior art documents plotted on the graphical timeline, and at least one graph representing at least one of the keywords occurring uniquely in the first patent matter and the keywords occurring in both the first patent matter and in the one or more prior art documents."
+    },
+    {
+      "claim_number": 2,
+      "text": "The method of claim 1 , further comprising adding synonyms of the keywords to the pool of identified keywords."
+    },
+    {
+      "claim_number": 3,
+      "text": "The method of claim 1 , further comprising automatically ranking the prior art documents based on the degree of differentiation between the first patent matter and the one or more prior art documents."
+    },
+    {
+      "claim_number": 4,
+      "text": "The method of claim 3 , wherein the prior art document with the highest degree of differentiation is lowest ranked in potential relevance to the claim set or statement of invention of the first patent matter."
+    },
+    {
+      "claim_number": 5,
+      "text": "The method of claim 3 , wherein the prior art document with the lowest degree of differentiation is highest ranked in potential relevance to the claim set or statement of invention of the first patent matter."
+    },
+    {
+      "claim_number": 6,
+      "text": "The method of claim 3 , further comprising visually presenting the ranking of the one or more prior art documents in a graphic user interface."
+    },
+    {
+      "claim_number": 7,
+      "text": "The method of claim 6 , further comprising providing, in the graphic user interface, a visual indication of the ranking in a time line."
+    },
+    {
+      "claim_number": 8,
+      "text": "The method of claim 1 , further comprising providing, in a graphic user interface, a visual indication of the technology class and/or subclass of the first patent matter and the one or more prior art document."
+    },
+    {
+      "claim_number": 9,
+      "text": "The method of claim 1 , further comprising providing, in a graphic user interface, an indication on the graphical time line of when one or more of the identified keywords first appeared in one or more of the prior art documents."
+    },
+    {
+      "claim_number": 10,
+      "text": "The method of claim 1 , further comprising identifying the cited inventors or assignees of the prior art documents and automatically ranking the prior art documents by inventor or assignee having the most keywords occurring in one or more of the prior art documents."
+    },
+    {
+      "claim_number": 11,
+      "text": "A patent portfolio management system, the system comprising: a patent matter database, wherein the database includes data about the patent matters, the data including for at least one patent matter: a claim set or statement of invention, and a priority date for the claim set or statement of invention; a database of prior art documents, wherein the prior art database includes data about the prior art documents, the data including for at least one prior art document a hardware-implemented analytics module including at least one processor to: associate one or more prior art documents with a first patent matter in the patent matter database; automatically identify a pool of keywords for the first patent matter and associated one or more prior art documents based on occurrences of the keywords in the first patent matter and associated prior art documents; perform an automatic keyword analysis on both the first patent matter and associated one or more prior art documents; automatically identify, based on the analysis, at least one of keywords occurring uniquely in the first patent matter as potential claim elements differentiating the claim set or statement of invention over the disclosures contained in the one or more prior art documents and keywords occurring in both the first patent matter and in the one or more prior art documents; and combine at a user interface information including at least identification of the at least one patent matter, the pool of keywords, a horizontally-arrayed graphical timeline representing the priority date of the first patent matter and the priority or publication dates of the one or more prior art documents plotted on the graphical timeline, and at least one graph representing at least one of the keywords occurring uniquely in the first patent matter and the keywords occurring in both the first patent matter and in the one or more prior art document."
+    },
+    {
+      "claim_number": 12,
+      "text": "The system of claim 11 , wherein the analytics module is further to include synonyms of the keywords in the pool of identified keywords."
+    },
+    {
+      "claim_number": 13,
+      "text": "The system of claim 11 , wherein the analytics module is further to automatically rank the prior art documents based on the degree of differentiation between the first patent matter and the one or more prior art documents."
+    },
+    {
+      "claim_number": 14,
+      "text": "The system of claim 13 , wherein the analytics module is further to rank the prior art document with the highest degree of differentiation as lowest ranked in potential relevance to the claim set or statement of invention of the first patent matter."
+    },
+    {
+      "claim_number": 15,
+      "text": "The system of claim 13 , wherein the analytics module is further to rank the prior art document with the lowest degree of differentiation as highest ranked in potential relevance to the claim set or statement of invention of the first patent matter."
+    },
+    {
+      "claim_number": 16,
+      "text": "The system of claim 13 , further comprising a display module to display a user interface, wherein the display module is further to visually present the ranking of the one or more prior art documents in the user interface."
+    },
+    {
+      "claim_number": 17,
+      "text": "The system of claim 16 , wherein the display module is further to provide, in the user interface, a visual indication of the ranking in a time line."
+    },
+    {
+      "claim_number": 18,
+      "text": "The system of claim 11 , wherein the display module is further to provide a visual indication of the degree of differentiation of the or each prior document in the time line."
+    },
+    {
+      "claim_number": 19,
+      "text": "The system of claim 11 , further comprising a display module to display a user interface, wherein the display module is further to provide, in the user interface, a visual indication of the technology class and/or subclass of the first patent matter and the or each prior art document."
+    },
+    {
+      "claim_number": 20,
+      "text": "The system of claim 11 , further comprising a display module to display a user interface, wherein the display module is further to provide, in the user interface, an indication on the graphical time line of when one or more of the identified keywords first appeared in one or more of the prior art documents."
+    },
+    {
+      "claim_number": 21,
+      "text": "The system of claim 11 , wherein the analytics module is further to identify the cited inventors or assignees of the prior art documents and automatically rank the prior art documents by inventor or assignee having the most keywords occurring in one or more of the prior art documents."
+    },
+    {
+      "claim_number": 22,
+      "text": "A patent portfolio management system comprising: a network; a patent matter database, accessible on the network, and including data about the patent matters, the data including for at least one patent matter: a claim set or statement of invention, and a priority date for the claim set or statement of invention; a prior art document database, accessible on the network, and including data about the prior art documents; and a server, operatively connected to the network, wherein the server includes: a processor, a memory, software operable on the processor to: associate one or more prior art documents with a first patent matter in the patent matter database; automatically identify a pool of keywords for the first patent matter and associated one or more prior art documents based on occurrences of the keywords in the first patent matter and associated prior art documents; perform an automatic keyword analysis on both the first patent matter and associated one or more prior art documents, automatically identify, based on the analysis, at least one of keywords occurring uniquely in the first patent matter as potential claim elements differentiating the claim set or statement of invention over the disclosures contained in the one or more prior art documents and keywords occurring in both the first patent matter and in the one or more prior art documents; and combine at a user interface information including at least identification of the at least one patent matter, the pool of keywords, a horizontally-arrayed graphical timeline representing the priority date of the first patent matter and the priority or publication dates of the one or more prior art documents plotted on the graphical timeline, and at least one graph representing at least one of the keywords occurring uniquely in the first patent matter and the keywords occurring in both the first patent matter and in the one or more prior art documents."
+    }
+  ],
+  "raw_html_bytes": 775875
+}

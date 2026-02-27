@@ -1,0 +1,64 @@
+{
+  "patent_id": "9922383",
+  "claim_number": 9,
+  "claim_text": "A method for displaying patent claims comprising: providing a system, the system comprising a server in electronic network communication with at least one database; a client device with GUI and software; the server and at least one client device in communication over an electronic network; the server or the at least one client device running software for performing the following steps: importing, via the electronic network, patent claims based upon user inputted information; parsing the imported patent claims hierarchically; generating a hierarchical claims diagram comprising a textual claim content associated with each patent claim, and outputting the hierarchical claims diagram on a GUI on a display, wherein, for each patent claim, the hierarchical claims diagram shows the parsed claims in an interactive format that is operable to dynamically expand and compress the textual claim content, according to the hierarchy of the imported patent claims; receiving sub-element selections; analyzing the sub-element selections for technology content; searching the at least one database for matching technology content; retrieving the matching technology content; receiving a study purpose; analyzing the matching technology content record for matching study purpose; retrieving from the Internet the matching technology and study purpose content; displaying matching technology and study purpose content thumbnail images on the GUI beside the patent claims diagram; and displaying matching technology content thumbnail images beside the patent claims diagram; and linking the thumbnail images to their sub-element.",
+  "overall_assessment": "PARTIAL_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "providing a system comprising a server and a client device",
+      "status": "MATCH",
+      "invention_evidence": [
+        "A software platform that accepts a user invention description and a set of patents",
+        "A computer-implemented platform that receives a user invention description and a set of patent documents"
+      ],
+      "notes": "The claim describes a system with a server and client device, which aligns with the invention's description of a software platform."
+    },
+    {
+      "element_id": "2",
+      "element_text": "importing patent claims based upon user inputted information",
+      "status": "MATCH",
+      "invention_evidence": [
+        "automatically extracts independent claims from the patent documents",
+        "compares the extracted features to the claim elements"
+      ],
+      "notes": "The claim's step of importing patent claims is supported by the invention's description of extracting claims."
+    },
+    {
+      "element_id": "3",
+      "element_text": "parsing the imported patent claims hierarchically",
+      "status": "MATCH",
+      "invention_evidence": [
+        "parses the claims into hierarchical elements and sub-elements"
+      ],
+      "notes": "The parsing of claims hierarchically is explicitly mentioned in the invention description."
+    },
+    {
+      "element_id": "4",
+      "element_text": "generating a hierarchical claims diagram",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention generating a hierarchical claims diagram specifically."
+    },
+    {
+      "element_id": "5",
+      "element_text": "analyzing sub-element selections for technology content",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not specify analyzing sub-element selections for technology content."
+    },
+    {
+      "element_id": "6",
+      "element_text": "displaying matching technology content thumbnail images",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention displaying matching technology content thumbnail images."
+    }
+  ],
+  "missing_elements": [
+    "generating a hierarchical claims diagram",
+    "analyzing sub-element selections for technology content",
+    "displaying matching technology content thumbnail images"
+  ],
+  "summary": "The claim describes a method for displaying patent claims with specific steps that partially align with the invention's description. However, several elements related to the display and analysis of technology content are not supported by the invention."
+}

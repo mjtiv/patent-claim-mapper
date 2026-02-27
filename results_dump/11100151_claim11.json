@@ -1,0 +1,57 @@
+{
+  "patent_id": "11100151",
+  "claim_number": 11,
+  "claim_text": "A method for interactive patent visualization, comprising: providing at least one user device constructed and configured for network communication with at least one server platform, wherein the at least one server platform comprises an intelligence engine including an artificial intelligence (AI) model, wherein the at least one server platform provides an interactive and dynamic graphical user interface (GUI) to the at least one user device; the at least one server platform accessing at least one national patent database and a multiplicity of market related databases; the at least one server platform automatically generating a patent forecast diagram based on patent data from the at least one national patent database, wherein the patent forecast diagram comprises a multiplicity of graphics distributed over time and by a multiplicity of categories, representing a distribution of patent documents for a predetermined technology sector over time, wherein each graphic represents a patent document; wherein each of the multiplicity of categories are associated with one of a multiplicity of category labels; the at least one user device tagging a multiplicity of patent documents with one of the multiplicity of category labels; wherein the server platform is operable to group the multiplicity of patent documents by the multiplicity of category labels on the patent forecast diagram; wherein the server platform is operable to generate a visual representation of market information including news articles, press releases, product announcements, and professional opinion articles for the predetermined technology sector; wherein the at least one user device is operable to display the patent forecast diagram and the visual representation of market information via the interactive and dynamic GUI; the at least one server platform training the AI model based on text of the multiplicity of patent documents tagged with the at least one category label by the at least one user device; the at least one user device displaying the patent forecast diagram via the interactive and dynamic GUI; the at least one user device click-selecting one of the multiplicity of graphics and displaying related patent data represented by the click-selected one of the multiplicity of graphics; the at least one server platform automatically, periodically retrieving new patent data from the at least one national database and updating the multiplicity of patent documents by adding new patent documents to the multiplicity of patent documents based on the new patent data; and wherein the patent forecast diagram is a radial plot diagram with the multiplicity of patent documents distributed from the origin to the extent of the radial plot diagram by time, and wherein the multiplicity of patent documents are circumferentially grouped based on the at least one category label.",
+  "overall_assessment": "PARTIAL_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "User device for network communication",
+      "status": "MATCH",
+      "invention_evidence": [
+        "A software platform that accepts a user invention description",
+        "provides an interactive and dynamic graphical user interface (GUI) to the at least one user device"
+      ],
+      "notes": "The claim mentions a user device configured for network communication, which is supported by the invention description."
+    },
+    {
+      "element_id": "2",
+      "element_text": "Server platform with AI model",
+      "status": "MATCH",
+      "invention_evidence": [
+        "the at least one server platform comprises an intelligence engine including an artificial intelligence (AI) model",
+        "compares them using AI models"
+      ],
+      "notes": "The claim specifies a server platform with an AI model, which aligns with the invention's description."
+    },
+    {
+      "element_id": "3",
+      "element_text": "Interactive GUI for visualization",
+      "status": "MATCH",
+      "invention_evidence": [
+        "provides an interactive and dynamic graphical user interface (GUI)",
+        "generate a claim mapping report indicating matches, missing elements, and confidence scores"
+      ],
+      "notes": "The claim's interactive GUI is directly supported by the invention description."
+    },
+    {
+      "element_id": "4",
+      "element_text": "Patent forecast diagram generation",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention generating a patent forecast diagram specifically."
+    },
+    {
+      "element_id": "5",
+      "element_text": "Retrieving and updating patent data",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The claim discusses retrieving and updating patent data, which is not covered in the invention description."
+    }
+  ],
+  "missing_elements": [
+    "Patent forecast diagram generation",
+    "Retrieving and updating patent data"
+  ],
+  "summary": "The claim describes a method for interactive patent visualization that includes user devices, a server platform with an AI model, and an interactive GUI, which partially aligns with the invention description. However, specific elements regarding patent forecast diagram generation and data retrieval are missing from the invention."
+}

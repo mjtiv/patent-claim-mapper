@@ -1,0 +1,84 @@
+{
+  "patent_id": "9904726",
+  "claim_number": 13,
+  "claim_text": "An apparatus comprising: a computer; a storage unit operatively coupled to the computer, wherein the storage unit has text of a first patent; a location-and-extraction unit in the computer that finds and extracts claim text from the text of the first patent, and places the extracted claim text of the first patent into the storage unit; a first-claim-identifier unit in the computer that identifies text of a first plurality of claims from the claim text of the first patent; an automatic preliminary scope-concept-phrase locator in the computer that locates, from the first plurality of claims, a plurality of preliminary scope-concept phrases including a first preliminary scope-concept phrase and a second preliminary scope-concept phrase; a user input device operatively coupled to the computer to elicit and receive a specification of a first one of the plurality of preliminary scope-concepts phrases; and a display unit operatively coupled to the computer to display in a first area on a computer monitor the text of the first plurality of claims, and to display in a second area on the computer monitor the text of the plurality of preliminary scope-concept phrases from the first plurality of claims, and to highlight each occurrence of the specified first one of the plurality of preliminary scope-concept phrases in a plurality of the first plurality of claims displayed in the first area; wherein the scope-concept-phrase locator further includes: a first word-by-word processor that processes through a first selected claim, and for a first selected word in the first selected claim identifies a plurality of other claims that have that first selected word, thus identifies a first one-word preliminary scope-concept phrase, then for a second selected word in the first selected claim identifies a plurality of other claims that have that second selected word, thus identifies a second one-word preliminary scope-concept phrase, wherein the first word-by-word processor repeats such process for each of a plurality of words in the first selected claim; a second word-by-word processor that processes through the first selected claim, and for a first selected two-word sequence of words that consists of the first selected word and the second selected word of the first selected claim, identifies a plurality of other claims that have that first selected two-word sequence, and thus identifies a first two-word preliminary scope-concept phrase, then for a second two-word sequence of adjacent words that consists of the second selected word and a third selected word of the first claim, identifies a plurality of other claims that have that second two-word sequence, and thus identifies a second two-word preliminary scope-concept phrase, wherein the second word-by-word processor repeats such process for a plurality of two-word sequences of words in the first selected claim; and a third word-by-word processor that processes through the first claim for three-word sequences of words to generate three-word scope concepts; wherein the scope-concept-phrase locator invokes the first word-by-word processor, the second word-by-word processor, and the third word-by-word processor for a second selected claim relative to a plurality of other claims in the patent.",
+  "overall_assessment": "PARTIAL_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "a computer",
+      "status": "MATCH",
+      "invention_evidence": [
+        "A software platform that accepts a user invention description and a set of patents",
+        "A computer-implemented platform that receives a user invention description and a set of patent documents"
+      ],
+      "notes": "The claim specifies a computer, which is present in the invention description."
+    },
+    {
+      "element_id": "2",
+      "element_text": "a storage unit operatively coupled to the computer",
+      "status": "MATCH",
+      "invention_evidence": [
+        "a storage unit operatively coupled to the computer",
+        "the system may visually link mapping results to corresponding claim elements"
+      ],
+      "notes": "The storage unit is explicitly mentioned in the claim."
+    },
+    {
+      "element_id": "3",
+      "element_text": "a location-and-extraction unit",
+      "status": "MATCH",
+      "invention_evidence": [
+        "automatically extracts independent claims from the patent documents",
+        "finds and extracts claim text from the text of the first patent"
+      ],
+      "notes": "The function of extracting claims is supported by the invention description."
+    },
+    {
+      "element_id": "4",
+      "element_text": "a first-claim-identifier unit",
+      "status": "MISSING",
+      "invention_evidence": []
+    },
+    {
+      "element_id": "5",
+      "element_text": "an automatic preliminary scope-concept-phrase locator",
+      "status": "MATCH",
+      "invention_evidence": [
+        "compares the extracted features to the claim elements using machine learning",
+        "generates a claim mapping report indicating matches, missing elements"
+      ],
+      "notes": "The function of locating scope-concept phrases aligns with the invention's purpose."
+    },
+    {
+      "element_id": "6",
+      "element_text": "a user input device",
+      "status": "MATCH",
+      "invention_evidence": [
+        "eliciting and receiving user input to specify a first one of the plurality of preliminary scope-concepts phrases"
+      ],
+      "notes": "The user input device is explicitly mentioned in the claim."
+    },
+    {
+      "element_id": "7",
+      "element_text": "a display unit",
+      "status": "MATCH",
+      "invention_evidence": [
+        "displaying in a first row on a computer monitor the text of the independent claims",
+        "to display in a first area on a computer monitor the text of the first plurality of claims"
+      ],
+      "notes": "The display unit is explicitly mentioned in the claim."
+    },
+    {
+      "element_id": "8",
+      "element_text": "word-by-word processors for identifying scope-concept phrases",
+      "status": "MISSING",
+      "invention_evidence": []
+    }
+  ],
+  "missing_elements": [
+    "a first-claim-identifier unit",
+    "word-by-word processors for identifying scope-concept phrases"
+  ],
+  "summary": "The claim describes an apparatus with several components including a computer, storage unit, and various processing units. Most elements are supported by the invention description, but the first-claim-identifier unit and specific word-by-word processors are not explicitly mentioned."
+}

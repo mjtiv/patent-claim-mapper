@@ -1,0 +1,75 @@
+{
+  "patent_id": "9904726",
+  "claim_number": 1,
+  "claim_text": "A computer-implemented method comprising: obtaining, into a computer, text of a first patent; automatically finding and extracting, using the computer, claim text from the text of the first patent; identifying, using the computer, text of a first plurality of claims from the claim text of the first patent; displaying in a first area on a computer monitor the text of the first plurality of claims; automatically generating, from the first plurality of claims, text of a plurality of preliminary scope-concept phrases derived from the first plurality of claims, wherein the plurality of preliminary scope-concept phrases includes a first preliminary scope-concept phrase and a second preliminary scope-concept phrase; displaying in a second area on the computer monitor the text of least the first and second preliminary scope-concept phrases from the first plurality of claims; eliciting and receiving user input to select a first specified one of the displayed preliminary scope-concepts phrases; and highlighting each occurrence of the first specified one of the displayed preliminary scope-concept phases in a plurality of the first plurality of claims displayed in the first area that contain the first specified one of the plurality of preliminary scope-concept phrases; wherein the generating of the plurality of preliminary scope-concept phrases further includes: first-processing word-by-word through a first selected claim, and for a first selected word in the first claim identifying a plurality of other claims having that first selected word, thus identifying a first one-word preliminary scope-concept phrase, for a second selected word in the first selected claim identifying a plurality of other claims having that second selected word, thus identifying a second one-word preliminary scope-concept phrase, and repeating this first processing for each of a plurality of words in the first selected claim; second processing word-by-word through the first selected claim, and for a first selected two-word sequence of words consisting of the first selected word and the second selected word of the first selected claim, identifying a plurality of other claims having that first selected two-word sequence, thus identifying a first two-word preliminary scope-concept phrase, for a second two-word sequence of words consisting of the second selected word and a third selected word of the first selected claim, identifying a plurality of other claims having that second selected two-word sequence, thus identifying a second two-word preliminary scope-concept phrase, and repeating this second processing for a plurality of other two-word sequences of words in the first selected claim; third processing word-by-word through the first selected claim for selected three-word sequences of words; and repeating the above processes, starting with a second selected claim, for one-word, two-word, and three-word preliminary scope-concept phrases.",
+  "overall_assessment": "PARTIAL_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "obtaining text of a first patent",
+      "status": "MATCH",
+      "invention_evidence": [
+        "A software platform that accepts a user invention description and a set of patents",
+        "receives a user invention description and a set of patent documents"
+      ],
+      "notes": ""
+    },
+    {
+      "element_id": "2",
+      "element_text": "automatically finding and extracting claim text",
+      "status": "MATCH",
+      "invention_evidence": [
+        "automatically extracts independent claims from the patent documents",
+        "automatically finding and extracting, using the computer, claim text from the text of the first patent"
+      ],
+      "notes": ""
+    },
+    {
+      "element_id": "3",
+      "element_text": "identifying text of a plurality of claims",
+      "status": "MATCH",
+      "invention_evidence": [
+        "identifying, using the computer, text of independent claims from the set of claim text",
+        "identifying, using the computer, text of a first plurality of claims from the claim text of the first patent"
+      ],
+      "notes": ""
+    },
+    {
+      "element_id": "4",
+      "element_text": "displaying claims on a computer monitor",
+      "status": "MATCH",
+      "invention_evidence": [
+        "displaying in a first row on a computer monitor the text of the independent claims",
+        "displaying in a first area on a computer monitor the text of the first plurality of claims"
+      ],
+      "notes": ""
+    },
+    {
+      "element_id": "5",
+      "element_text": "generating preliminary scope-concept phrases",
+      "status": "MATCH",
+      "invention_evidence": [
+        "automatically generates a claim mapping report",
+        "automatically generating, from the first plurality of claims, text of a plurality of preliminary scope-concept phrases"
+      ],
+      "notes": ""
+    },
+    {
+      "element_id": "6",
+      "element_text": "eliciting user input to select a scope-concept phrase",
+      "status": "MISSING",
+      "invention_evidence": []
+    },
+    {
+      "element_id": "7",
+      "element_text": "highlighting occurrences of selected phrases",
+      "status": "MISSING",
+      "invention_evidence": []
+    }
+  ],
+  "missing_elements": [
+    "eliciting user input to select a scope-concept phrase",
+    "highlighting occurrences of selected phrases"
+  ],
+  "summary": "The claim describes a computer-implemented method for processing patent claims, which partially aligns with the invention's description of an AI claim mapping platform. Key elements such as obtaining patent text, extracting claims, and displaying them are matched, while the elicitation of user input and highlighting features are missing."
+}

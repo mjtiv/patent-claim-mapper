@@ -1,0 +1,67 @@
+{
+  "patent_id": "8892547",
+  "claim_number": 1,
+  "claim_text": "A method comprising: maintaining a patent matter database, wherein the database includes data about the patent matters, the data including for at least one patent matter: a claim set or statement of invention, and a priority date for the claim set or statement of invention; maintaining a database of prior art documents, wherein the prior art database includes data about the prior art documents; associating one or more prior art documents with a first patent matter in the patent matter database; automatically identifying a pool of keywords for the first patent matter and associated one or more prior art documents based on occurrences of the keywords in the first patent matter and associated prior art documents; performing an automatic keyword analysis on both the first patent matter and associated one or more prior art documents; automatically identifying, based on the analysis, at least one of keywords occurring uniquely in the first patent matter as potential claim elements differentiating the claim set or statement of invention over the disclosures contained in the one or more prior art documents and keywords occurring in both the first patent matter and in the one or more prior art documents; and combining at a user interface information including at least identification of the at least one patent matter, the pool of keywords, a horizontally-arrayed graphical timeline representing the priority date of the first patent matter and the priority or publication dates of the one or more prior art documents plotted on the graphical timeline, and at least one graph representing at least one of the keywords occurring uniquely in the first patent matter and the keywords occurring in both the first patent matter and in the one or more prior art documents.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "maintaining a patent matter database",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention maintaining a patent matter database."
+    },
+    {
+      "element_id": "2",
+      "element_text": "maintaining a database of prior art documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention maintaining a database of prior art documents."
+    },
+    {
+      "element_id": "3",
+      "element_text": "associating prior art documents with a patent matter",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention associating prior art documents with a patent matter."
+    },
+    {
+      "element_id": "4",
+      "element_text": "identifying a pool of keywords",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention identifying a pool of keywords."
+    },
+    {
+      "element_id": "5",
+      "element_text": "performing an automatic keyword analysis",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention performing an automatic keyword analysis."
+    },
+    {
+      "element_id": "6",
+      "element_text": "identifying keywords occurring uniquely",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention identifying keywords occurring uniquely."
+    },
+    {
+      "element_id": "7",
+      "element_text": "combining information at a user interface",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention description does not mention combining information at a user interface."
+    }
+  ],
+  "missing_elements": [
+    "maintaining a patent matter database",
+    "maintaining a database of prior art documents",
+    "associating prior art documents with a patent matter",
+    "identifying a pool of keywords",
+    "performing an automatic keyword analysis",
+    "identifying keywords occurring uniquely",
+    "combining information at a user interface"
+  ],
+  "summary": "The claim describes a method involving databases and keyword analysis for patent matters, which is not supported by the invention description."
+}

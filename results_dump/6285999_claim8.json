@@ -1,0 +1,51 @@
+{
+  "patent_id": "6285999",
+  "claim_number": 8,
+  "claim_text": "A computer implemented method of determining a score for a plurality of linked documents, comprising: obtaining a plurality of linked documents; selecting one of the linked documents; assigning a score to the selected document that is dependent on scores of documents that link to the selected document; and processing the linked documents according to their scores.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "computer implemented method of determining a score for a plurality of linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention focuses on a claim mapping platform, not on scoring linked documents."
+    },
+    {
+      "element_id": "2",
+      "element_text": "obtaining a plurality of linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention obtaining linked documents."
+    },
+    {
+      "element_id": "3",
+      "element_text": "selecting one of the linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of selecting linked documents in the invention."
+    },
+    {
+      "element_id": "4",
+      "element_text": "assigning a score to the selected document that is dependent on scores of documents that link to the selected document",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe assigning scores to documents."
+    },
+    {
+      "element_id": "5",
+      "element_text": "processing the linked documents according to their scores",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No processing of linked documents is described in the invention."
+    }
+  ],
+  "missing_elements": [
+    "computer implemented method of determining a score for a plurality of linked documents",
+    "obtaining a plurality of linked documents",
+    "selecting one of the linked documents",
+    "assigning a score to the selected document that is dependent on scores of documents that link to the selected document",
+    "processing the linked documents according to their scores"
+  ],
+  "summary": "The claim describes a method for scoring linked documents, which does not align with the invention focused on an AI claim mapping platform."
+}

@@ -1,0 +1,35 @@
+{
+  "patent_id": "6285999",
+  "claim_number": 1,
+  "claim_text": "A computer implemented method of scoring a plurality of linked documents, comprising: obtaining a plurality of documents, at least some of the documents being linked documents, at least some of the documents being linking documents, and at least some of the documents being both linked documents and linking documents, each of the linked documents being pointed to by a link in one or more of the linking documents; assigning a score to each of the linked documents based on scores of the one or more linking documents and processing the linked documents according to their scores.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "computer implemented method of scoring linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention focuses on a claim mapping platform, not on scoring linked documents."
+    },
+    {
+      "element_id": "2",
+      "element_text": "obtaining a plurality of documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not mention obtaining documents in this context."
+    },
+    {
+      "element_id": "3",
+      "element_text": "assigning a score to each of the linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not describe assigning scores to documents."
+    }
+  ],
+  "missing_elements": [
+    "computer implemented method of scoring linked documents",
+    "obtaining a plurality of documents",
+    "assigning a score to each of the linked documents"
+  ],
+  "summary": "The claim describes a method for scoring linked documents, which does not align with the invention's focus on an AI claim mapping platform."
+}

@@ -1,0 +1,43 @@
+{
+  "patent_id": "6285999",
+  "claim_number": 10,
+  "claim_text": "A computer implemented method of ranking a plurality of linked documents, comprising: automatically performing a random traversal of a plurality of linked documents, the random traversal including selecting a random link to traverse in a current linked document; for each linked document that is traversed, assigning a rank to the linked document that is dependent on the number of times the linked document has been traversed; and processing the plurality of linked documents according to their rank.",
+  "overall_assessment": "NO_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "computer implemented method of ranking linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention focuses on a claim mapping platform, not ranking linked documents."
+    },
+    {
+      "element_id": "2",
+      "element_text": "random traversal of linked documents",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No mention of random traversal in the invention description."
+    },
+    {
+      "element_id": "3",
+      "element_text": "assigning a rank based on traversal count",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "The invention does not discuss ranking based on traversal."
+    },
+    {
+      "element_id": "4",
+      "element_text": "processing linked documents according to rank",
+      "status": "MISSING",
+      "invention_evidence": [],
+      "notes": "No processing of documents based on rank is described."
+    }
+  ],
+  "missing_elements": [
+    "computer implemented method of ranking linked documents",
+    "random traversal of linked documents",
+    "assigning a rank based on traversal count",
+    "processing linked documents according to rank"
+  ],
+  "summary": "The claim describes a method for ranking linked documents, which is not related to the AI claim mapping platform described in the invention."
+}

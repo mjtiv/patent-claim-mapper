@@ -1,0 +1,109 @@
+{
+  "patent_id": "9922383",
+  "claim_number": 1,
+  "claim_text": "A system for analyzing patent claims, the system comprising: at least one input device in communication with at least one computer and at least one output device, wherein the at least one computer is capable of storing, modifying, outputting, and retrieving information via an electronic network from the at least one input device and the at least one output device; at least one database, the database in network communication with the at least one computer; and software installed and capable of running on the at least one computer for automatically: importing patent claims via the electronic network based upon the user inputted information; parsing the imported patent claims hierarchically, wherein each independent claim is parsed into its invention sub-elements, wherein an invention sub-element is a parsed patent invention element or a step of the independent patent invention claim, and wherein the hierarchically parsed patent claims comprises hierarchical elements and sub-elements; generating a hierarchical claims diagram comprising a textual claim content associated with each patent claim, and outputting the hierarchical claims diagram, wherein, for each patent claim, the hierarchical claims diagram shows the parsed claims in an interactive format that is operable to dynamically expand and compress the textual claim content, according to the hierarchy of the imported patent claims; receiving sub-element selections from the input device; analyzing the sub-element selections for technology content; searching the at least one database in real-time via the network for matching technology content; receiving a study purpose; analyzing in real-time via the network a matching technology content record for matching study purpose; retrieving in real-time from the Internet the matching technology and study purpose content; displaying on a GUI matching technology and study purpose content thumbnail images beside the patent claims diagram; and visually linking the thumbnail images to their sub-element.",
+  "overall_assessment": "LIKELY_MATCH",
+  "elements": [
+    {
+      "element_id": "1",
+      "element_text": "at least one input device in communication with at least one computer and at least one output device",
+      "status": "MATCH",
+      "invention_evidence": [
+        "A software platform that accepts a user invention description and a set of patents",
+        "a computer-implemented platform that receives a user invention description and a set of patent documents",
+        "the at least one computer is capable of storing, modifying, outputting, and retrieving information"
+      ],
+      "notes": "The input and output devices are implied as part of the system's functionality."
+    },
+    {
+      "element_id": "2",
+      "element_text": "at least one database in network communication with the at least one computer",
+      "status": "MATCH",
+      "invention_evidence": [
+        "a set of patent documents",
+        "the system may visually link mapping results to corresponding claim elements",
+        "searching the at least one database in real-time via the network for matching technology content"
+      ],
+      "notes": "The database is necessary for storing and retrieving patent claims."
+    },
+    {
+      "element_id": "3",
+      "element_text": "software installed and capable of running on the at least one computer",
+      "status": "MATCH",
+      "invention_evidence": [
+        "generates a claim mapping report indicating matches, missing elements, and confidence scores",
+        "the system may visually link mapping results to corresponding claim elements",
+        "analyzing the sub-element selections for technology content"
+      ],
+      "notes": "The software functionality aligns with the described invention."
+    },
+    {
+      "element_id": "4",
+      "element_text": "importing patent claims via the electronic network based upon the user inputted information",
+      "status": "MATCH",
+      "invention_evidence": [
+        "accepts a user invention description",
+        "automatically extracts independent claims from the patent documents",
+        "the system may visually link mapping results to corresponding claim elements"
+      ],
+      "notes": "The importing process is a key feature of the system."
+    },
+    {
+      "element_id": "5",
+      "element_text": "parsing the imported patent claims hierarchically",
+      "status": "MATCH",
+      "invention_evidence": [
+        "parses the claims into hierarchical elements and sub-elements",
+        "the hierarchically parsed patent claims comprises hierarchical elements and sub-elements",
+        "the system may visually link mapping results to corresponding claim elements"
+      ],
+      "notes": "The hierarchical parsing is explicitly mentioned in both the claim and the invention."
+    },
+    {
+      "element_id": "6",
+      "element_text": "generating a hierarchical claims diagram",
+      "status": "MATCH",
+      "invention_evidence": [
+        "generates a claim mapping report",
+        "outputting the hierarchical claims diagram",
+        "the hierarchical claims diagram shows the parsed claims in an interactive format"
+      ],
+      "notes": "The generation of a claims diagram is a direct match."
+    },
+    {
+      "element_id": "7",
+      "element_text": "analyzing the sub-element selections for technology content",
+      "status": "MATCH",
+      "invention_evidence": [
+        "compares them using AI models",
+        "analyzing in real-time via the network a matching technology content record",
+        "analyzing the sub-element selections for technology content"
+      ],
+      "notes": "The analysis of selections for technology content is a core function."
+    },
+    {
+      "element_id": "8",
+      "element_text": "searching the at least one database in real-time",
+      "status": "MATCH",
+      "invention_evidence": [
+        "searching the at least one database in real-time via the network for matching technology content",
+        "the system may visually link mapping results to corresponding claim elements",
+        "analyzing in real-time via the network a matching technology content record"
+      ],
+      "notes": "Real-time searching is a specified feature."
+    },
+    {
+      "element_id": "9",
+      "element_text": "displaying on a GUI matching technology and study purpose content",
+      "status": "MATCH",
+      "invention_evidence": [
+        "providing interactive exploration of the mappings",
+        "displaying on a GUI matching technology and study purpose content thumbnail images",
+        "the system may visually link mapping results to corresponding claim elements"
+      ],
+      "notes": "The GUI display of content is a clear match."
+    }
+  ],
+  "missing_elements": [],
+  "summary": "The claim describes a system for analyzing patent claims that aligns closely with the invention description of an AI Claim Mapping Platform, covering input devices, databases, software functionalities, and the processes of importing, parsing, analyzing, and displaying patent claims."
+}
