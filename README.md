@@ -182,6 +182,92 @@ Outputs are summarized into a CSV report including:
 
 ------------------------------------------------------------------------
 
+## How to Run
+
+### Prerequisites
+
+- Python **3.10+**
+- An OpenAI API key
+- Internet access (for scraping Google Patents)
+
+### Install Dependencies
+
+Create a virtual environment (recommended), then install requirements:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+pip install -r requirements.txt
+```
+
+If you do not yet have a `requirements.txt`, the script uses at least:
+
+- openai
+- python-dotenv
+- requests
+- beautifulsoup4
+- lxml
+
+### Required Input Files
+
+Create these files in the same directory as the script:
+
+1) **list_of_patents.txt**  
+One patent number per line (commas optional). Example:
+
+```text
+9,922,383
+9,904,726
+8,892,547
+11,100,151
+11,977,722
+6,285,999
+```
+
+2) **description_invention.txt**  
+Plain-text description of the invention / product concept you want to map against the claims.
+
+3) **.env**  
+Environment variables for the model and key:
+
+```bash
+OPENAI_API_KEY=your_key_here
+OPENAI_MODEL=gpt-4o-mini
+```
+
+> Note: The analysis prompt instructs the model to use only the invention description and claim text for correspondence reasoning. Patent title/abstract are included as metadata context.
+
+### Run the Pipeline
+
+Run:
+
+```bash
+python patent_claim_analysis_1.5.py
+```
+
+### Outputs
+
+The script creates the following directories/files:
+
+- `patent_dump/`  
+  Raw scraped patent JSON (title, abstract, full claims, metadata)
+
+- `inject_dump/`  
+  Reduced per-patent payloads containing **independent claims** + metadata
+
+- `results_dump/`  
+  One JSON result per **independent claim** (element breakdown + match status)
+
+- `summary_report.csv`  
+  Aggregate summary across all analyzed independent claims (match counts and match %)
+
+### Typical Workflow Notes
+
+- The system analyzes **all independent claims** for each patent (not just Claim 1).
+- If scraping fails for a patent due to page layout differences or rate limiting, re-run or reduce the list size and retry.
+
+------------------------------------------------------------------------
+
 # Results --- Anchor Patent Validation
 
 ## Anchor Patent Performance
