@@ -265,16 +265,17 @@ ability to detect strong technical alignment when present.
 
 ## Gradient Behavior Across Dataset
 
+![Claim Mapping Summary](figures/summary_report_results.png)
+
 The broader dataset exhibited the expected similarity gradient:
 
--   **Anchor (9,922,383):** LIKELY_MATCH / highest scores\
--   **Strong Neighbor (9,904,726):** High PARTIAL_MATCH (\~70--75%)\
--   **Medium Neighbor (8,892,547):** Moderate PARTIAL_MATCH\
--   **Weak Neighbors:** NO_MATCH\
--   **Outlier (6,285,999):** Predominantly NO_MATCH
+- **Anchor (9,922,383):** LIKELY_MATCH / highest scores  
+- **Strong Neighbor (9,904,726):** High PARTIAL_MATCH (~70–75%)  
+- **Medium Neighbor (8,892,547):** Moderate PARTIAL_MATCH  
+- **Weak Neighbors:** NO_MATCH  
+- **Outlier (6,285,999):** Predominantly NO_MATCH  
 
-This pattern indicates that the system demonstrates discriminative
-capability across patents with varying conceptual similarity.
+This pattern indicates that the system demonstrates discriminative capability across patents with varying conceptual similarity.
 
 ------------------------------------------------------------------------
 
