@@ -21,20 +21,22 @@ technical correspondence detection.
 
 The central question:
 
-> Can AI reliably determine whether an invention description reads on a
-> patent claim when both are provided explicitly?
+> Can AI reliably determine whether an invention description reads on a patent claim when both are provided explicitly?
 
 This requires multiple reasoning steps:
 
-1.  Reading and interpreting an invention description\
-2.  Extracting independent claims from patents\
-3.  Decomposing claims into elements and sub-elements\
-4.  Identifying feature correspondence\
-5.  Detecting missing limitations\
-6.  Providing textual evidence\
-7.  Estimating overall correspondence confidence
+1. Reading and interpreting an invention description  
+2. Extracting independent claims from patents  
+3. Decomposing claims into elements and sub-elements  
+4. Identifying feature correspondence  
+5. Detecting missing limitations  
+6. Estimating overall correspondence confidence  
 
 The resulting task approximates automated **claim chart reasoning**.
+
+Because patent claims define the legally enforceable scope of protection, this study focuses on claim language as the primary source of correspondence analysis. Patent specifications, drawings, and prosecution history are not analyzed in this stage in order to maintain a controlled evaluation of claim-to-description matching without introducing additional interpretive complexity.
+
+This claim-centric approach reflects early-stage patent analysis workflows, where practitioners often begin by comparing technical disclosures directly against claim limitations before consulting the full specification.
 
 ------------------------------------------------------------------------
 
