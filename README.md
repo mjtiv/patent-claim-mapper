@@ -90,6 +90,22 @@ capability.
 
 ------------------------------------------------------------------------
 
+## Patent Status and Public Domain Considerations
+
+The primary anchor patent used in this study (U.S. Patent No. 9,922,383) is listed as **expired** according to publicly available records.
+
+The use of an expired patent provides several advantages for experimental evaluation:
+
+- The claimed subject matter is no longer under enforceable patent protection.
+- Analysis can be conducted using publicly available materials without commercial or legal sensitivity.
+- The experiment can focus purely on technical correspondence behavior rather than real-world infringement risk.
+
+Because the patent has expired, the results presented in this repository should be interpreted solely as a methodological demonstration of claim-to-description mapping capability using public-domain material.
+
+No commercial product or system described here is intended to practice or implement the patented invention.
+
+------------------------------------------------------------------------
+
 ## System Architecture
 
 The pipeline follows an **acquire once, analyze many** workflow:
