@@ -279,6 +279,24 @@ This pattern indicates that the system demonstrates discriminative capability ac
 
 ------------------------------------------------------------------------
 
+## Independent Claim Coverage
+
+All independent claims for each patent were analyzed in this study rather than limiting evaluation to Claim 1.
+
+This approach is important because patent applicants frequently include:
+
+- Broad independent claims later in the claim set  
+- Multiple statutory classes (system, method, apparatus)  
+- Alternative scope formulations across independent claims  
+
+As a result, the strongest technical correspondence for a given patent may not always occur in the first independent claim.
+
+By evaluating **all independent claims**, the pipeline avoids structural bias introduced by claim ordering and more accurately reflects real-world patent analysis workflows, where practitioners review the entire independent claim set when assessing correspondence or risk.
+
+The results table therefore represents the highest-confidence correspondence observed across the independent claims of each patent.
+
+------------------------------------------------------------------------
+
 ## Conclusion
 
 The experiment demonstrates that structured AI pipelines can:
