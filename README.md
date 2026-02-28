@@ -637,5 +637,7 @@ Email: mjtiv@udel.edu
 
 If referencing this work in academic, technical, or professional contexts, please cite:
 
-> Tomlinson, M.J. (2026). *Patent Claim Mapper: Evaluating AI-Based Technical Correspondence Detection Between Invention Descriptions and Patent Claims.* GitHub Repository.  
-> https://github.com/mjtiv/patent-claim-mapper
+> Tomlinson, M.J. (2026). *Patent Claim Mapper: Evaluating AI-Based Technical Correspondence Detection Between Invention Descriptions and Patent Claims.*  
+> GitHub Repository. https://github.com/mjtiv/patent-claim-mapper
+
+
