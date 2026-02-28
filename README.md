@@ -17,6 +17,32 @@ technical correspondence detection.
 
 ------------------------------------------------------------------------
 
+- [Research Objective](#research-objective)
+- [Professional Use Disclaimer](#professional-use-disclaimer)
+- [Experimental "Intentional Infringement" Scenario](#experimental-intentional-infringement-scenario)
+- [Dataset Design](#dataset-design)
+- [Patent Status and Public Domain Considerations](#patent-status-and-public-domain-considerations)
+- [System Architecture](#system-architecture)
+- [How to Run](#how-to-run)
+- [Results — Anchor Patent Validation](#results--anchor-patent-validation)
+  - [Anchor Patent Performance](#anchor-patent-performance)
+  - [Anchor Claim Text](#anchor-claim-text-us-patent-no-9922383---claim-1)
+  - [Correspondence Interpretation](#correspondence-interpretation)
+  - [Gradient Behavior Across Dataset](#gradient-behavior-across-dataset)
+  - [Independent Claim Coverage](#independent-claim-coverage)
+  - [Conclusion](#conclusion)
+- [Example Output Schema](#example-output-schema)
+- [What Is Being Evaluated](#what-is-being-evaluated)
+- [Scope and Caveats](#scope-and-caveats)
+- [Why This Matters](#why-this-matters)
+- [Future Directions](#future-directions)
+- [Repository Structure](#repository-structure)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+- [Suggested Citation](#suggested-citation)
+
+------------------------------------------------------------------------
+
 ## Research Objective
 
 The central question:
