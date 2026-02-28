@@ -2,18 +2,20 @@
 
 ## Overview
 
-**patent-claim-mapper** explores whether modern AI systems can perform
-structured **claim-level technical correspondence analysis** between an
-invention description and issued patent claims.
+**patent-claim-mapper** explores whether modern AI systems can perform structured **claim-level technical correspondence analysis** between an invention description and issued patent claims.
 
-The project evaluates whether AI can approximate the reasoning process
-underlying a **claim chart**, including element decomposition, feature
-matching, and identification of missing limitations.
+The project evaluates whether AI can approximate the reasoning process underlying a **claim chart**, including element decomposition, feature matching, and identification of missing limitations.
 
-Importantly, this system does **not** perform patent search or legal
-infringement analysis. Instead, it focuses on a controlled experimental
-setting where patents are pre-selected and the objective is to measure
-technical correspondence detection.
+Importantly, this system does **not** perform patent search or legal infringement analysis. Instead, it focuses on a controlled experimental setting where patents are pre-selected and the objective is to measure technical correspondence detection under simplified conditions.
+
+This repository represents an early-stage **proof of concept** designed to evaluate the feasibility of AI-assisted claim correspondence workflows. While the current implementation is intentionally scoped to a constrained research environment, pipelines of this general architecture could potentially evolve — with substantially greater rigor, validation, and professional oversight — to support broader patent analysis tasks such as:
+
+- Freedom-to-operate (FTO) screening  
+- Invalidity and prior art analysis support  
+- Portfolio comparison and competitive intelligence  
+- Drafting and prosecution assistance workflows  
+
+Any such applications would require significantly more sophisticated methodology, legal integration, and expert review than is implemented here.
 
 ------------------------------------------------------------------------
 
