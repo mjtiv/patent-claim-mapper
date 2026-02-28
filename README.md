@@ -19,7 +19,9 @@ technical correspondence detection.
 
 ## System Overview
 
-![AI-Assisted Patent Claim Mapping Pipeline](figures/pipeline_overview.png)
+<p align="center">
+  <img src="figures/pipeline_overview.png" width="750">
+</p>
 
 **Figure — AI-assisted patent claim mapping pipeline.**  
 The workflow retrieves patent documents, extracts independent claims,
