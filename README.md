@@ -35,10 +35,11 @@ technical correspondence detection.
 - [What Is Being Evaluated](#what-is-being-evaluated)
 - [Scope and Caveats](#scope-and-caveats)
 - [Why This Matters](#why-this-matters)
-- [Future Directions](#future-directions)
 - [Repository Structure](#repository-structure)
-- [Disclaimer](#disclaimer)
-- [License](#license)
+- [Research and Prototype Disclaimer](#research-and-prototype-disclaimer)
+- [Methodological Limitations](#methodological-limitations)
+- [Intended Use](#intended-use)
+- [Author, Contact, and Citation](#author-contact-and-citation)
 - [Suggested Citation](#suggested-citation)
 
 ------------------------------------------------------------------------
@@ -530,19 +531,6 @@ impact legal workflows.
 
 ------------------------------------------------------------------------
 
-## Future Directions
-
-Potential extensions:
-
--   Multi-claim aggregation scoring\
--   Cross-patent ranking\
--   Embedding-based similarity pre-filtering\
--   GUI visualization of claim charts\
--   Integration with patent search pipelines\
--   Local model deployment for confidential environments
-
-------------------------------------------------------------------------
-
 ## Repository Structure
 
     patent_dump/        Raw scraped patent data
@@ -552,25 +540,86 @@ Potential extensions:
 
 ------------------------------------------------------------------------
 
-## Disclaimer
+## Research and Prototype Disclaimer
 
-This project is a technical research prototype.
+This repository is provided for **research, educational, and prototyping purposes**.
 
-It does not provide legal opinions, infringement determinations, or
-patentability analysis.
+The system implements an experimental pipeline for structured claim-to-description correspondence analysis using large language models. It is intended to explore whether AI-assisted workflows can support early-stage patent analysis tasks such as claim decomposition and preliminary technical mapping.
+
+This project does **not** provide:
+
+- Legal advice
+- Infringement determinations
+- Patentability opinions
+- Freedom-to-operate conclusions
+- Claim construction or legal interpretation
+
+All outputs should be considered **experimental artifacts** requiring expert review.
+
+Patent analysis in professional practice involves substantially more rigor than is implemented here, including:
+
+- Specification and drawing analysis
+- Prosecution history review
+- Legal claim construction standards (e.g., Phillips framework)
+- Jurisdiction-specific doctrine
+- Prior art analysis and search methodology
+- Strategic and commercial risk assessment
+
+This prototype intentionally simplifies many of these factors in order to isolate and evaluate a narrower technical question: whether structured AI pipelines can assist with claim-element correspondence detection when claims and descriptions are provided explicitly.
 
 ------------------------------------------------------------------------
 
-## License
+## Methodological Limitations
 
-\[Add your license here\]
+The current implementation represents an early-stage research prototype and does not establish scientific validity or performance guarantees.
+
+Limitations include:
+
+- Small controlled dataset
+- Synthetic invention descriptions
+- Simplified claim parsing heuristics
+- Absence of specification context
+- Limited statistical evaluation
+- Dependence on stochastic model behavior
+
+Future work could incorporate more rigorous evaluation frameworks, including:
+
+- Larger benchmark datasets
+- Blind validation sets
+- Inter-annotator agreement comparisons
+- Error taxonomy analysis
+- Ablation studies
+- Statistical performance metrics
+- Human expert baseline comparisons
+
+Accordingly, results presented in this repository should be interpreted as **proof-of-concept demonstrations**, not validated performance claims.
+
+------------------------------------------------------------------------
+
+## Intended Use
+
+Tools of this type are best understood as **decision-support or triage aids** that may help professionals prioritize analysis and allocate effort more efficiently.
+
+They are not substitutes for qualified patent practitioners.
+
+------------------------------------------------------------------------
+
+## Author, Contact, and Citation
+
+This repository was prepared by **M. Joseph Tomlinson IV**, Ph.D., Registered U.S. Patent Agent (USPTO Reg. No. 83,522), based on professional experience and independent research in patent analysis workflows and AI-assisted technical evaluation.
+
+Portions of the implementation and documentation were developed with the assistance of AI-based tools and subsequently reviewed by the author. The content is intended for **educational, research, and prototyping purposes** and reflects retrospective analysis of publicly available materials.
+
+Feedback, corrections, and discussion are welcome. Please open an issue in this repository or contact the author directly.
+
+**Contact**  
+Email: mjtiv@udel.edu  
 
 ------------------------------------------------------------------------
 
 ## Suggested Citation
 
-If referencing this work:
+If referencing this work in academic, technical, or professional contexts, please cite:
 
-> Tomlinson, M.J. --- Patent Claim Mapper: Evaluating AI-Based Technical
-> Correspondence Detection Between Invention Descriptions and Patent
-> Claims.
+> Tomlinson, M.J. (2026). *Patent Claim Mapper: Evaluating AI-Based Technical Correspondence Detection Between Invention Descriptions and Patent Claims.* GitHub Repository.  
+> https://github.com/mjtiv/patent-claim-mapper
